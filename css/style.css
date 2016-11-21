@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end css reset */
+body {
+	background: forestgreen;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: "Verdana", Verdana, Geneva, sans-serif;
+	text-align: center;
+	color: black;
+}
+
+h2 {
+	font-size: 1.25em;
+	font-family: "MS Sans Serif", Geneva, sans-serif;
+	color: black;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.25em;
+	font-family: "Tahoma", Geneva, sans-serif;
+	color: black;
+	text-align: center;
+}
+
+p {
+	font-size: 1em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	line-height: 1.5em;
+	text-align: left;
+	color: black;
+}
+
+#container {
+	background: white;
+	width: 900px;
+	margin: 60px auto;
+}
+
+#pageHeader {
+	width: 900px;
+	height: 160px;
+	position: relative;
+	padding: 20px 0 0 0;
+}
+
+#quickSummary {
+	background: whitesmoke;
+	width: 900px;
+	height: 100px;
+}
+
+#preamble {
+	background: lightgrey;
+	width: 900px;
+	height: 170px;
+}
+
+#supportingText {
+	background: darkgray;
+	width: 700px;
+	height: 900px;
+	overflow: auto;
+	float: left;
+}
+
+#linkList {
+	background: grey;
+	width: 200px;
+	height: 900px;
+	float: right;
+}
+
+#lselect ul li {
+	height: 75px;
+	width: 100px;
+	float: left;
+	text-align: center;
+}
+#lselect ul li a:link {
+	text-decoration: none;
+	color: powderblue;
+}
+#lselect ul li a:visited {
+	color: lightgoldenrodyellow;
+}
+#lselect ul li a:hover {
+	text-decoration: underline;
+}
+#lselect ul li a:focus {
+	text-decoration: underline;
+}
+#lselect ul li a:active {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#larchives ul li {
+	height: 40px;
+	width: 200px;
+	float: left;
+	text-align: center;
+}
+#larchives ul li a:link {
+	text-decoration: none;
+	color: powderblue;
+}
+#larchives ul li a:visited {
+	color: lightgoldenrodyellow;
+}
+#larchives ul li a:hover {
+	text-decoration: underline;
+}
+#larchives ul li a:focus {
+	text-decoration: underline;
+}
+#larchives ul li a:active {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+#lresources ul li {
+	height: 40px;
+	width: 200px;
+	float: left;
+	text-align: center;
+}
+#lresources ul li a:link {
+	text-decoration: none;
+	color: powderblue;
+}
+#lresources ul li a:visited {
+	color: lightgoldenrodyellow;
+}
+#lresources ul li a:hover {
+	text-decoration: underline;
+}
+#lresources ul li a:focus {
+	text-decoration: underline;
+}
+#lresources ul li a:active {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+#extraDiv1 {
+	position: absolute;
+}
+
+
+
+
+
+
+
+
